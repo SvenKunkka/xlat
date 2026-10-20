@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 <h1 align="center"> Finalmouse XLAT Mouse Latency Measurement Tool </h1>
 
 <div align="center">
@@ -120,3 +124,32 @@ The libraries used are licensed under their respective licenses. See `LICENSES` 
 
 ## Conclusion
 The XLAT Mouse Latency Measurement Tool provides an accurate method for measuring mouse latency, aiding in achieving optimal performance for a competitive edge.
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+来自 teamfinalmouse/xlat 的个人 Fork，保留 Finalmouse XLAT 鼠标点击延迟测量工具的固件与说明。通过电气点击信号到对应 USB 数据包的时间差测量有线或无线鼠标的点击延迟。
+
+**使用入口：** 按原 README 准备 Finalmouse XLAT 或 STM32F746G-DISCO、USB 适配线及待测鼠标，再参考接线、设备识别和测量步骤。
+
+**范围说明：** 需要专用硬件及鼠标点击信号接线；测量对象是鼠标点击链路，不等同显示器或整机端到端延迟，原作者及 GPLv3 许可保留。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A personal fork of teamfinalmouse/xlat, preserving firmware and instructions for the Finalmouse XLAT mouse click-latency tool. It measures the interval from an electrical click signal to the corresponding USB packet for wired or wireless mice.
+
+**Getting started:** Prepare a Finalmouse XLAT or STM32F746G-DISCO, USB adapters and the mouse under test, then follow the wiring, device-recognition and measurement instructions in the original README.
+
+**Scope:** Requires dedicated hardware and wiring to the mouse click signal. It measures the mouse click path, not display or whole-system end-to-end latency. Original authorship and GPLv3 licensing are preserved.
+
+**本 Fork 的维护者 / Maintainer of this fork:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+**上游项目 / Upstream:** [teamfinalmouse/xlat](https://github.com/teamfinalmouse/xlat)。保留原作者署名与原许可证 / Original authorship and license notices are retained.
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
